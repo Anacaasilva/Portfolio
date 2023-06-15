@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Krona One');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+strong {
+  color: #FDA522;
+  font-weight: bold;
+}
+
+.about {
+  height: 80vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  word-wrap: break-word;
+  justify-content: center;
+}
+
+.containerText {
+  width: 570px;
+  margin-right: 110px;
+}
+
+.welcomeText {
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 50px;
+  padding-left: 6px;
+  border-style: solid;
+  border-left-width: 4px;
+  font-family: 'Krona One';
+  border-image: linear-gradient(to bottom, #FF00E6, #F80000, #FDA522) 1;
+}
+
+.aboutText {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  line-height: 35px;
+  font-family: 'Montserrat';
+}
+
+.acessText {
+  font-size: 22px;
+  margin-top: 30px;
+  color: #FFFFFF;
+  font-weight: 900;
+  line-height: 35px;
+  font-family: 'Montserrat';
+}
+
+.containerButton {
+  flex: 1;
+  display: flex;
+  margin-top: 27px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttonInsta {
+  width: 230px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  border-radius: 12px;
+  justify-content: center;
+  background-image: linear-gradient(to bottom right, #FF00E6, #F80000, #FDA522, #F80000);
+}
+
+.bgButton {
+  width: 226px;
+  height: 56px;
+  display: flex;
+  border-radius: 11px;
+  align-items: center;
+  background-color: #0E1013;
+}
+
+.iconInsta {
+  height: 25px;
+  margin: 0 20px;
+}
+
+.textInsta {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.iconGit {
+  height: 45px;
+  margin: 0 20px;
+}
+
+.textGit {
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: 'Montserrat';
+}
+
+.imgUser {
+  width: 366px;
+  height: 416px;
+  position: absolute;
+}
+
+.bgImg {
+  width: 358px;
+  height: 408px;
+  margin-left: 18px;
+  margin-top: -15px;
+  border: 2px solid;
+  border-radius: 16px;
+  background-image: linear-gradient(to bottom left  , #FF00E6, #F80000, #FDA522, #F80000);
+}
+
+.bgImgContent {
+  width: 354px;
+  height: 404px;
+  margin-top: 2px;
+  margin-left: 2px;
+  border-radius: 13px;
+  background-color: #0E1013;
+}
