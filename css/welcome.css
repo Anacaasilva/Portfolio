@@ -7,12 +7,13 @@ strong {
 }
 
 .welcome {
-  height: 80vh;
+  height: 85vh;
   display: flex;
   position: relative;
   align-items: center;
   word-wrap: break-word;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .containerText {
@@ -50,13 +51,14 @@ strong {
 
 .containerButton {
   flex: 1;
+  height: 65px;
   display: flex;
   margin-top: 27px;
   align-items: center;
   justify-content: space-between;
 }
 
-.buttonInsta {
+.button {
   width: 230px;
   height: 60px;
   display: flex;
@@ -66,14 +68,28 @@ strong {
   background-image: linear-gradient(to bottom right, #FF00E6, #F80000, #FDA522, #F80000);
 }
 
+.button:hover {
+  /* width: 235px;
+  height: 65px; */
+  transition: all .2s;
+  transform: scaleX(1.05) scaleY(1.05);
+}
+
 .bgButton {
   width: 226px;
   height: 56px;
   display: flex;
   border-radius: 11px;
   align-items: center;
-  background-color: #0E1013;
+  background-color: #0e1013;
 }
+
+/* .bgButton:hover {
+  width: 231px;
+  height: 61px;
+  transition: all .2s;
+
+} */
 
 .iconInsta {
   height: 25px;
