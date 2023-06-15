@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Krona One');
+
+.contentSkills {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin-top: 200px;
+  z-index: 2;
+}
+
+.skillsText {
+  font-size: 36px;
+  color: #FFFFFF;
+  line-height: 50px;
+  margin-left: 15%;
+  font-family: 'Krona One';
+}
+
+.containerColuns {
+  display: flex;
+  justify-content: center;
+}
+
+.colunLeft {
+  /* background-color: blue; */
+  width: 40%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.itens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+
+}
+
+.imgCy{
+  width: 90px;
+  height: 90px;
+  margin-right: 43px;
+}
+
+.textItens {
+  width: 400px;
+  font-family: 'Krona One';
+  color: #FFFFFF;
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.imgHtml {
+  width: 85px;
+  height: 85px;
+}
+
+.imgCss {
+  width: 95px;
+  height: 95px;
+  margin-right: 43px;
+}
+
+.colunRight {
+  width: 40%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.imgIos {
+  height: 90px;
+}
+
+.imgAnd {
+  width: 90px;
+  height: 90px;
+  margin-right: 43px;
+}
+
+.topBg {
+  width: 100%;
+}
+
+.midBg {
+  width: 100%;
+  height: 430px;
+  background-color: #282A2D;
+  margin-top: -10px;
+}
+
+.bottomBg {
+  width: 100%;
+  transform: scaleX(-1) scaleY(-1);
+  margin-top: -5px;
+}
+
