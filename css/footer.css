@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Krona One');
+
+.footer {
+  padding: 10px;
+  background-image: linear-gradient(to right, #F80000, #FDA522);
+}
+
+.textFooter {
+  font-size: 15px;
+  font-weight: 900;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Krona One';
+}

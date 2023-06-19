@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Salsa');
 @import url('https://fonts.googleapis.com/css?family=Krona One');
 
-body{
+body {
   background-color: #0E1013;
 }
 
-nav{
+nav {
   top: 0;
   z-index: 3;
   width: 100%;
@@ -16,7 +16,12 @@ nav{
   background-color: rgba(14, 16, 19, .7);
 }
 
-.logo{
+a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo {
   flex: 1;
   font-size: 35px;
   color: #FDA522;
@@ -25,11 +30,52 @@ nav{
   font-family: 'Salsa';
 }
 
-.buttonNav{
-  color: #FFFFFF;
+.containerNav {
   margin-right: 50px;
-  border-style: solid;
+  height: 20px;
+}
+
+.buttonNav {
+  color: #FFFFFF;
   font-family: 'Krona One';
-  border-bottom-width: 2px;
-  border-image: linear-gradient(to right, #FF00E6, #F80000, #FDA522) 1;
+}
+
+.buttonBar {
+  height: 3px;
+  width: 100%;
+  background-image: linear-gradient(to right, #FF00E6, #F80000, #FDA522);
+  border-radius: 99px;
+}
+
+#buttonWel {
+  opacity: 0;
+  width: 0;
+}
+
+#buttonWel.buttonBar {
+  opacity: 1;
+  width: 100%;
+  transition: all 1s;
+}
+
+#buttonSki {
+  opacity: 0;
+  width: 0;
+}
+
+#buttonSki.buttonBar {
+  opacity: 1;
+  width: 100%;
+  transition: all 1s;
+}
+
+#buttonRep {
+  opacity: 0;
+  width: 0;
+}
+
+#buttonRep.buttonBar {
+  opacity: 1;
+  width: 100%;
+  transition: all 1s;
 }

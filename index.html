@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="./css/welcome.css">
   <link rel="stylesheet" href="./css/skills.css">
   <link rel="stylesheet" href="./css/repositories.css">
+  <link rel="stylesheet" href="./css/footer.css">
   <title>Portfólio</title>
 </head>
 
@@ -17,13 +18,22 @@
   <header>
     <nav>
       <h1 class="logo">AC</h1>
-      <h2 class="buttonNav">Bem-Vindos</h2>
-      <h2 class="buttonNav">Skills</h2>
-      <h2 class="buttonNav">Repositórios</h2>
+      <div class="containerNav">
+        <h2 class="buttonNav"><a href="#welcome">Bem-Vindos</a></h2>
+        <div id="buttonWel"></div>
+      </div>
+      <div class="containerNav">
+        <h2 class="buttonNav"><a href="#skills">Skills</a></h2>
+        <div id="buttonSki"></div>
+      </div>
+      <div class="containerNav">
+        <h2 class="buttonNav"><a href="#repositories">Repositórios</a></h2>
+        <div id="buttonRep"></div>
+      </div>
     </nav>
   </header>
   <main>
-    <section class="welcome">
+    <section class="welcome" id="welcome">
       <div class="containerText">
         <h1 class="welcomeText">Sejam Bem-vindos ao meu <strong>Portfólio</strong>!</h1>
         <p class="aboutText">Olá! Sou Ana Carolina. Atualmente, estou estagiando na área de QA (Quality Assurance) em
@@ -53,14 +63,15 @@
         </div>
       </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
       <div class="contentSkills">
         <h1 class="skillsText"><strong>S</strong>kills</h1>
         <div class="containerColuns">
           <div class="colunLeft">
             <div class="itens">
               <img class="imgCy" src="./img/imgCypress.svg" alt="Imagem Cypress">
-              <p class="textItens">Conhecimentos em testes E2E (End-to-end), utilizando Cypress.io para sistemas Web.</p>
+              <p class="textItens">Conhecimentos em testes E2E (End-to-end), utilizando Cypress.io para sistemas Web.
+              </p>
             </div>
             <div class="itens">
               <img class="imgHtml" src="./img/imgHtml.svg" alt="Imagem HTML">
@@ -72,7 +83,8 @@
             <div class="itens">
               <img class="imgIos" src="./img/iosStore.svg" alt="Loja iOS">
               <img class="imgAnd" src="./img/androidStore.svg" alt="Loja Android">
-              <p class="textItens">Experiência na Gestão e no processo de Deploy das lojas  mobile (App Store Connect, Google Play Console).</p>
+              <p class="textItens">Experiência na Gestão e no processo de Deploy das lojas mobile (App Store Connect,
+                Google Play Console).</p>
             </div>
           </div>
         </div>
@@ -80,8 +92,8 @@
       <img class="topBg" src="./img/background.svg" alt="Background">
       <div class="midBg"></div>
       <img class="bottomBg" src="./img/background.svg" alt="Background">
-    </section>  
-    <section class="repositories">
+    </section>
+    <section class="repositories" id="repositories">
       <h1 class="textRep"><strong>R</strong>epositórios</h1>
       <div class="itenKabum">
         <img class="imgKabum" src="./img/imgKabum.svg" alt="Logo KaBuM">
@@ -90,9 +102,12 @@
           <p class="textKabum">Teste E2E realizado com Cypress na plataforma KaBuM.</p>
         </div>
       </div>
-      </section>
+    </section>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <p class="textFooter">Desenvolvido por Ana Carolina</p>
+  </footer>
 </body>
 
 </html>
+<script src="./js/navBar.js"></script>
