@@ -9,11 +9,11 @@ strong {
 .welcome {
   height: 85vh;
   display: flex;
+  margin-top: 80px;
   position: relative;
   align-items: center;
   word-wrap: break-word;
   justify-content: center;
-  margin-top: 80px;
 }
 
 .containerText {
@@ -69,8 +69,6 @@ strong {
 }
 
 .button:hover {
-  /* width: 235px;
-  height: 65px; */
   transition: all .2s;
   transform: scaleX(1.05) scaleY(1.05);
 }
@@ -83,13 +81,6 @@ strong {
   align-items: center;
   background-color: #0e1013;
 }
-
-/* .bgButton:hover {
-  width: 231px;
-  height: 61px;
-  transition: all .2s;
-
-} */
 
 .iconInsta {
   height: 25px;

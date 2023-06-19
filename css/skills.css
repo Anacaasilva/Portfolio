@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Krona One');
 
 .contentSkills {
-  position: absolute;
+  z-index: 2;
   width: 100%;
   height: 100vh;
   margin-top: 200px;
-  z-index: 2;
+  position: absolute;
 }
 
 .skillsText {
   font-size: 36px;
   color: #FFFFFF;
-  line-height: 50px;
   margin-left: 15%;
+  line-height: 50px;
   font-family: 'Krona One';
 }
 
@@ -22,20 +22,19 @@
 }
 
 .colunLeft {
-  /* background-color: blue; */
   width: 40%;
   height: 650px;
   display: flex;
+  align-items: start;
   flex-direction: column;
   justify-content: space-between;
-  align-items: start;
 }
 
 .itens{
+  height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 250px;
 
 }
 
@@ -47,10 +46,10 @@
 
 .textItens {
   width: 400px;
-  font-family: 'Krona One';
-  color: #FFFFFF;
   font-size: 15px;
+  color: #FFFFFF;
   line-height: 40px;
+  font-family: 'Krona One';
 }
 
 .imgHtml {
@@ -68,9 +67,9 @@
   width: 40%;
   height: 650px;
   display: flex;
+  align-items: start;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
 }
 
 .imgIos {
@@ -90,13 +89,12 @@
 .midBg {
   width: 100%;
   height: 430px;
-  background-color: #282A2D;
   margin-top: -10px;
+  background-color: #282A2D;
 }
 
 .bottomBg {
   width: 100%;
-  transform: scaleX(-1) scaleY(-1);
   margin-top: -5px;
+  transform: scaleX(-1) scaleY(-1);
 }
-
