@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Krona One');
 
+:root {
+	--secondary-color: #FFFFFF;
+
+	--primary-source: 'Krona One';
+}
+
 .repositories {
 	height: 80vh;
 	margin-left: 15%;
@@ -7,9 +13,9 @@
 
 .textRep {
 	font-size: 36px;
-	color: #FFFFFF;
 	line-height: 50px;
-	font-family: 'Krona One';
+	color: var(--secondary-color);
+	font-family: var(--primary-source);
 }
 
 .itenKabum {
@@ -25,16 +31,16 @@
 
 .titleKabum {
 	font-size: 19px;
-	color: #FFFFFF;
 	font-weight: 400;
 	margin-bottom: 15px;
-	font-family: 'Krona One';
+	color: var(--secondary-color);
+	font-family: var(--primary-source);
 }
 
 .textKabum {
 	width: 400px;
 	font-size: 15px;
 	line-height: 25px;
-	font-family: 'Krona One';
 	color: rgba(255, 255, 255, 0.8);
+	font-family: var(--primary-source);
 }

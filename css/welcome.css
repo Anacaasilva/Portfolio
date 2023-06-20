@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Krona One');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+:root {
+  --primary-color: #0e1013;
+  --secondary-color: #FFFFFF;
+  --tertiary-color: #FDA522;
+
+  --primary-source: 'Krona One';
+  --secondary-source: 'Montserrat';
+}
+
 strong {
-  color: #FDA522;
   font-weight: bold;
+  color: var(--tertiary-color);
 }
 
 .welcome {
@@ -23,30 +32,30 @@ strong {
 
 .welcomeText {
   font-size: 36px;
-  color: #FFFFFF;
   line-height: 50px;
   padding-left: 6px;
   border-style: solid;
   border-left-width: 4px;
-  font-family: 'Krona One';
+  color: var(--secondary-color);
+  font-family: var(--primary-source);
   border-image: linear-gradient(to bottom, #FF00E6, #F80000, #FDA522) 1;
 }
 
 .aboutText {
   font-size: 22px;
   margin-top: 30px;
-  color: #FFFFFF;
   line-height: 35px;
-  font-family: 'Montserrat';
+  color: var(--secondary-color);
+  font-family: var(--secondary-source);
 }
 
 .acessText {
   font-size: 22px;
   margin-top: 30px;
-  color: #FFFFFF;
   font-weight: 900;
   line-height: 35px;
-  font-family: 'Montserrat';
+  color: var(--secondary-color);
+  font-family: var(--secondary-source);
 }
 
 .containerButton {
@@ -79,7 +88,7 @@ strong {
   display: flex;
   border-radius: 11px;
   align-items: center;
-  background-color: #0e1013;
+  background-color: var(--primary-color);
 }
 
 .iconInsta {
@@ -89,10 +98,10 @@ strong {
 
 .textInsta {
   font-size: 20px;
-  color: #FFFFFF;
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Montserrat';
+  color: var(--secondary-color);
+  font-family: var(--secondary-source);
 }
 
 .iconGit {
@@ -102,10 +111,10 @@ strong {
 
 .textGit {
   font-size: 20px;
-  color: #FFFFFF;
   font-weight: bold;
   text-decoration: none;
-  font-family: 'Montserrat';
+  color: var(--secondary-color);
+  font-family: var(--secondary-source);
 }
 
 .imgUser {
@@ -130,5 +139,5 @@ strong {
   margin-top: 2px;
   margin-left: 2px;
   border-radius: 13px;
-  background-color: #0E1013;
+  background-color: var(--primary-color);
 }

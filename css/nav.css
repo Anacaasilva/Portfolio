@@ -1,8 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Salsa');
 @import url('https://fonts.googleapis.com/css?family=Krona One');
 
+:root {
+  --primary-color: #0e1013;
+  --secondary-color: #FFFFFF;
+  --tertiary-color: #FDA522;
+
+  --primary-source: 'Krona One';
+  --font-logo: 'Salsa';
+}
+
 body {
-  background-color: #0E1013;
+  background-color: var(--primary-color);
 }
 
 nav {
@@ -17,39 +26,39 @@ nav {
 }
 
 a {
-  color: #FFFFFF;
   text-decoration: none;
+  color: var(--secondary-color);
 }
 
 .logo {
   flex: 1;
   font-size: 35px;
-  color: #FDA522;
   font-weight: 300;
   padding-left: 150px;
-  font-family: 'Salsa';
+  color: var(--tertiary-color);
+  font-family: var(--font-logo);
 }
 
 .containerNav {
-  margin-right: 50px;
   height: 20px;
+  margin-right: 50px;
 }
 
 .buttonNav {
-  color: #FFFFFF;
-  font-family: 'Krona One';
+  color: var(--secondary-color);
+  font-family: var(--primary-source);
 }
 
 .buttonBar {
   height: 3px;
   width: 100%;
-  background-image: linear-gradient(to right, #FF00E6, #F80000, #FDA522);
   border-radius: 99px;
+  background-image: linear-gradient(to right, #FF00E6, #F80000, #FDA522);
 }
 
 #buttonWel {
-  opacity: 0;
   width: 0;
+  opacity: 0;
 }
 
 #buttonWel.buttonBar {
@@ -59,8 +68,8 @@ a {
 }
 
 #buttonSki {
-  opacity: 0;
   width: 0;
+  opacity: 0;
 }
 
 #buttonSki.buttonBar {
@@ -70,8 +79,8 @@ a {
 }
 
 #buttonRep {
-  opacity: 0;
   width: 0;
+  opacity: 0;
 }
 
 #buttonRep.buttonBar {
