@@ -141,3 +141,22 @@ strong {
   border-radius: 13px;
   background-color: var(--primary-color);
 }
+
+
+@media (max-width: 1125px) { 
+  .welcome {
+    height: auto;
+    flex-direction: column;
+  }
+
+  .containerText {
+    margin-top: 35px;
+    margin-right: 0;
+  }
+
+  .containerImg {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+}

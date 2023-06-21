@@ -11,7 +11,7 @@
   z-index: 2;
   width: 100%;
   height: 100vh;
-  margin-top: 200px;
+  margin-top: 10vw;
   position: absolute;
 }
 
@@ -30,8 +30,9 @@
 
 .colunLeft {
   width: 40%;
-  height: 650px;
+  height: 37vw;
   display: flex;
+  min-height: 400px;
   align-items: start;
   flex-direction: column;
   justify-content: space-between;
@@ -104,4 +105,29 @@
   width: 100%;
   margin-top: -5px;
   transform: scaleX(-1) scaleY(-1);
+}
+
+@media (max-width: 1125px) {
+
+  .contentSkills {
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+  }
+
+  .skillsText {
+    margin-left: 0;
+    margin-top: 30vw;
+  }
+
+  .containerColuns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .colunLeft {
+    width: 80%;
+    align-items: center;
+  }
 }
