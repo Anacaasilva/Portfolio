@@ -107,7 +107,14 @@
   transform: scaleX(-1) scaleY(-1);
 }
 
-@media (max-width: 1125px) {
+/* @media(max-width: 1360px) {
+  .containerColuns {
+
+  }
+  
+} */
+
+@media (max-width: 1360px) {
 
   .contentSkills {
     justify-content: center;
@@ -129,5 +136,14 @@
   .colunLeft {
     width: 80%;
     align-items: center;
+  }
+
+  .colunRight {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .midBg {
+    height: 600px;
   }
 }
