@@ -8,7 +8,7 @@
 
 .footer {
   padding: 10px;
-  background-image: linear-gradient(to right, #F80000, #FDA522);
+  background-image: linear-gradient(to right, #F80000,  #FDA522);
 }
 
 .textFooter {
@@ -17,4 +17,10 @@
   text-align: center;
   color: var(--secondary-color);
   font-family: var(--primary-source);
+}
+
+@media (max-width: 730px) {
+  .textFooter {
+    font-size: 13px;
+  }
 }

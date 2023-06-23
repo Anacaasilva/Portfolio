@@ -150,13 +150,76 @@ strong {
   }
 
   .containerText {
-    margin-top: 35px;
     margin-right: 0;
+    margin-top: 35px;
   }
 
   .containerImg {
     margin-top: 100px;
     margin-bottom: 100px;
   }
+}
 
+@media (max-width: 730px) {
+  .containerText {
+    width: 500px;
+  }
+
+  .welcomeText {
+    font-size: 30px;
+  }
+
+  .aboutText {
+    font-size: 16px;
+  }
+
+  .acessText {
+    font-size: 16px;
+  }
+
+  .button {
+    width: 224px;
+    height: 54px;
+  } 
+
+  .bgButton {
+    width: 220px;
+    height: 50px;
+  }
+
+  .iconInsta {
+    height: 19px;
+  }
+
+  .textInsta {
+    font-size: 18px;
+  }
+
+  .iconGit {
+    height: 39px;
+  }
+
+  .textGit {
+    font-size: 18px;
+  }
+
+  .containerImg {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .imgUser {
+    width: 340px;
+    height: 390px;
+  }
+
+  .bgImg {
+    width: 332px;
+    height: 382px;
+  }
+
+  .bgImgContent {
+    width: 328px;
+    height: 378px;
+  }
 }

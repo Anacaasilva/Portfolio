@@ -88,3 +88,19 @@ a {
   width: 100%;
   transition: all 1s;
 }
+
+@media (max-width : 730px) {
+  .logo {
+    display: none;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .containerNav {
+    margin: 0;
+  }
+}
