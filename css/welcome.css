@@ -91,12 +91,12 @@ strong {
   background-color: var(--primary-color);
 }
 
-.iconInsta {
-  height: 25px;
+.iconLink {
+  height: 45px;
   margin: 0 20px;
 }
 
-.textInsta {
+.textLink {
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;
@@ -187,11 +187,11 @@ strong {
     height: 50px;
   }
 
-  .iconInsta {
-    height: 19px;
+  .iconLink {
+    height: 39px;
   }
 
-  .textInsta {
+  .textLink{
     font-size: 18px;
   }
 
