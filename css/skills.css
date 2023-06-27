@@ -197,8 +197,8 @@
   }
 
   .itens {
-    flex-direction: column;
     margin: 15px 0;
+    flex-direction: column;
   }
 
   .textItens {
@@ -227,5 +227,15 @@
 
   .midBg {
     height: 800px;
+  }
+}
+
+@media (max-width: 420px) {
+  .midBg {
+    height: 830px;
+  }
+
+  .textItens {
+    width: 350px;
   }
 }

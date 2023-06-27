@@ -24,3 +24,9 @@
     font-size: 13px;
   }
 }
+
+@media (max-width: 420px) {
+  .textFooter {
+    font-size: 8px;
+  }
+}

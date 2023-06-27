@@ -104,3 +104,19 @@ a {
     margin: 0;
   }
 }
+
+@media (max-width: 420px) {
+  nav {
+    position: relative;
+  }
+
+  .logo{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  .containerNav {
+    display: none;
+  }
+}

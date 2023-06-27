@@ -204,8 +204,7 @@ strong {
   }
 
   .containerImg {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 50px 0;
   }
 
   .imgUser {
@@ -222,4 +221,101 @@ strong {
     width: 328px;
     height: 378px;
   }
+}
+
+@media (max-width: 520px) {
+  .containerText {
+    width: 380px;
+  }
+
+  .welcomeText {
+    font-size: 18px;
+    line-height: 30px;
+  }
+
+  .containerButton {
+    flex-direction: column;
+    height: 130px;
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .bgButton{
+    width: 99%;
+    justify-content: center;
+  }
+
+  .iconLink {
+    margin: 0;
+    margin-right: 10px;
+  }
+
+  .iconGit {
+    margin: 0;
+    margin-right: 10px;
+  }
+
+  .containerImg {
+    margin-top: 70px;
+  }
+
+  .imgUser {
+    width: 320px;
+    height: 370px;
+  }
+
+  .bgImg {
+    width: 312px;
+    height: 362px;
+  }
+
+  .bgImgContent {
+    width: 308px;
+    height: 358px;
+  }
+}
+
+@media (max-width: 420px) {
+  .welcome {
+    margin-top: 15px;
+  }
+
+  .containerText {
+    width: 320px;
+    margin-top: 20px;
+  }
+
+  .button {
+    width: 90%;
+  }
+
+  .bgButton {
+    width: 98%;
+  }
+
+  .textLink {
+    font-size: 15px;
+  }
+
+  .textGit {
+    font-size: 15px;
+  }
+
+  .imgUser {
+    width: 300px;
+    height: 350px;
+  }
+
+  .bgImg {
+    width: 292px;
+    height: 342px;
+  }
+
+  .bgImgContent {
+    width: 288px;
+    height: 338px;
+  }
+
 }
