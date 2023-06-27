@@ -46,6 +46,10 @@
 
 }
 
+.imgs {
+  display: flex;
+}
+
 .imgCy{
   width: 90px;
   height: 90px;
@@ -63,6 +67,7 @@
 .imgHtml {
   width: 85px;
   height: 85px;
+  margin-top: 5px;
 }
 
 .imgCss {
@@ -177,3 +182,50 @@
     margin-right: 37px;
   }
 } 
+
+@media (max-width: 620px) {
+  .contentSkills {
+    height: auto;
+  }
+
+  .skillsText {
+    margin-top: 15px;
+  }
+
+  .colunLeft {
+    height: auto;
+  }
+
+  .itens {
+    flex-direction: column;
+    margin: 15px 0;
+  }
+
+  .textItens {
+    text-align: center;
+  }
+
+  .imgCy {
+    margin-right: 0;
+  }
+  
+  .imgHtml {
+    margin-right: 0;
+  }
+
+  .imgCss {
+    margin-right: 0;
+  }
+
+  .imgIos {
+    margin-right: 0;
+  }
+
+  .imgAnd {
+    margin-right: 0;
+  }
+
+  .midBg {
+    height: 800px;
+  }
+}
